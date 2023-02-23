@@ -6,8 +6,6 @@ public class PrimeFactors {
     static int temp = 10000000;
     static boolean[] arr = new boolean[temp]; //For checking if the number is prime or not
     public static void main(String[] args) {
-//            for(int i=0;i<temp;i++)
-//                arr[i]=true;
             arr[0]=true;
             Arrays.fill(arr,true);
             for(int i=2;i<temp;i++)

@@ -18,7 +18,9 @@ public class DataFetchService {
     private AuditRepo repo;
     String currency_choice[]= {"AED","CAD","EUR","INR","JPY"};
     public void getApiData(String date) {
+        //Used for multi-threading
         FutureTask<RatesData>[] tasks = new FutureTask[6];
+
         Audit[] infos=new Audit[6];
         try {
 
