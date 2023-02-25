@@ -26,6 +26,7 @@ public class SortArray {
             }
             cnt_ind+=1;
         }
+
         System.out.println(st1);
         System.out.println(st2);
 
